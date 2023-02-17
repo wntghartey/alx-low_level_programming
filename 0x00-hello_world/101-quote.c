@@ -2,7 +2,8 @@
 #include <unistd.h>
 
 /**
- *  main - Entry points
+ *  main - prints "and that piece of art is useful" -Dora Korpar, 2015-10-19",
+ *  Follewd by a new line.
  *
  *  Return: Always 1
  */
