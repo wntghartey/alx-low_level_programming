@@ -12,9 +12,9 @@ char *ptr = (char *)&num;
 
 if (*ptr == 0x78)
 {
-return (1); 
-} 
-else 
+return (1);
+}
+else
 {
 return (0);
 }
