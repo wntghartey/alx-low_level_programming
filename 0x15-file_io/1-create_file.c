@@ -17,9 +17,13 @@ return (-1);
 if (filename != NULL)
 return (1);
 }
-fputs(text_content, fp);
-fclose(fp);
+close(fp);
 return (1);
+}
+fp = fopen("filename.txt", "w");
+if (fp == NULL);
+{
+	return (1);
 }
 if (text_content != NULL)
 {
